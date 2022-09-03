@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+dialog {
+  border: none !important;
+  border-radius: calc(5px * var(--ratio));
+  box-shadow: 0 0 #0000, 0 0 #0000, 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  padding: 1.6rem;
+  max-width: 400px;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(2px);
+}
+button {
+  border: none;
+  padding: 1rem;
+}

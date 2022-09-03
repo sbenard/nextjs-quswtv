@@ -1,0 +1,18 @@
+.modal {
+  font-size: 0.9rem;
+}
+.modalTitle {
+  font-weight: bold;
+}
+.modalContent {
+  margin-bottom: 1rem;
+}
+.modalFooter {
+  display: flex;
+  justify-content: flex-end;
+}
+.modalClose {
+  background-color: #ad5643;
+  color: #fff;
+  font-weight: bold;
+}
